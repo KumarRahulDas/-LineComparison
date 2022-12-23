@@ -8,6 +8,7 @@ public class LineComparison {
         double y1;
         double x2;
         double y2;
+<<<<<<< HEAD
         double x3;
         double y3;
         double x4;
@@ -37,5 +38,16 @@ public class LineComparison {
         String str2 = Double.toString(length2);
 
         System.out.println(str1.equals(str2));
+=======
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter Four numbers: ");
+        x1 = reader.nextDouble();
+        y1 = reader.nextDouble();
+        x2 = reader.nextDouble();
+        y2 = reader.nextDouble();
+
+        double Length = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+        System.out.println("Length of Line is: "+ Length);
+>>>>>>> 405ac34078b650062a0080cad8ea6f8bb88ee629
     }
 }
