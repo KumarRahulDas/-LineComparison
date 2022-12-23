@@ -1,6 +1,11 @@
 package com.bridgelabz.lineComparison;
 import java.util.Scanner;
 import java.lang.Math;
+
+
+
+
+
 public class LineComparison {
     public static void main(String[] args) {
         System.out.println("Welcome To The Line Computation Program");
@@ -8,6 +13,10 @@ public class LineComparison {
         double y1;
         double x2;
         double y2;
+
+
+
+
 
         double x3;
         double y3;
@@ -37,10 +46,19 @@ public class LineComparison {
         double length2 = Math.sqrt(Math.pow(x4 - x3, 2) + Math.pow(y4 - y3, 2));
         String str2 = Double.toString(length2);
 
+
         System.out.println(str2.compareTo(str1));
 
 
         Scanner reader = new Scanner(System.in);
+
+        System.out.println(str1.equals(str2));
+
+        // Scanner reader = new Scanner(System.in);
+
+        Scanner reader = new Scanner(System.in);
+
+
         System.out.print("Enter Four numbers: ");
         x1 = reader.nextDouble();
         y1 = reader.nextDouble();
@@ -49,6 +67,12 @@ public class LineComparison {
 
         double Length = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         System.out.println("Length of Line is: "+ Length);
+
+
+
+
+
+
 
     }
 }
