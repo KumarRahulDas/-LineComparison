@@ -1,7 +1,10 @@
 package com.bridgelabz.lineComparison;
 import java.util.Scanner;
 import java.lang.Math;
-//uc2 lines equall check
+
+
+
+
 public class LineComparison {
     public static void main(String[] args) {
         System.out.println("Welcome To The Line Computation Program");
@@ -9,6 +12,7 @@ public class LineComparison {
         double y1;
         double x2;
         double y2;
+
 
         double x3;
         double y3;
@@ -41,6 +45,9 @@ public class LineComparison {
         System.out.println(str1.equals(str2));
 
         // Scanner reader = new Scanner(System.in);
+
+        Scanner reader = new Scanner(System.in);
+
         System.out.print("Enter Four numbers: ");
         x1 = reader.nextDouble();
         y1 = reader.nextDouble();
@@ -49,6 +56,9 @@ public class LineComparison {
 
         double Length = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         System.out.println("Length of Line is: "+ Length);
+
+
+
 
     }
 }
